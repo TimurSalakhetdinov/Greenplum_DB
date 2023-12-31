@@ -6,12 +6,12 @@ This project is an end-to-end data processing and analytics initiative utilizing
 
 ## Data:
 
-* Stores (stores): Contains details about retail outlets. This table will be loaded from a file using gpfdist from a local machine.
-* Traffic (traffic): Details about customer footfall in stores, updated hourly from counting systems. Loaded from an external PostgreSQL database via PXF.
-* Bills (bills_head, bills_item): Transaction data stored in two separate tables. These will be loaded from an external PostgreSQL database via PXF.
-* Coupons (coupons): Data on discount coupons used in transactions, loaded from a file using gpfdist.
-* Promotions (promos): Details of ongoing promotional activities, loaded from a file using gpfdist.
-* Promotion Types (promo_types): Types of promotions available, loaded from a file using gpfdist.
+* **Stores (stores)**: Contains details about retail outlets. This table will be loaded from a file using gpfdist from a local machine.
+* **Traffic (traffic)**: Details about customer footfall in stores, updated hourly from counting systems. Loaded from an external PostgreSQL database via PXF.
+* **Bills (bills_head, bills_item)**: Transaction data stored in two separate tables. These will be loaded from an external PostgreSQL database via PXF.
+* **Coupons (coupons)**: Data on discount coupons used in transactions, loaded from a file using gpfdist.
+* **Promotions (promos)**: Details of ongoing promotional activities, loaded from a file using gpfdist.
+* **Promotion Types (promo_types)**: Types of promotions available, loaded from a file using gpfdist.
 
 ## Data Preparation:
 
@@ -58,9 +58,9 @@ This project is an end-to-end data processing and analytics initiative utilizing
 
 ## Project Status
 
-*Completed* - The project has been successfully concluded with all objectives met. The model and reports are now in use, providing regular and valuable insights to the business.
+**Completed** - The project has been successfully concluded with all objectives met. The model and reports are now in use, providing regular and valuable insights to the business.
 
-Future Work
+## Future Work
 
 * Exploring further enhancements to the model's performance and its application in other areas of the organization.
 * Continual improvement of the data processing and analytics pipeline to adapt to new business needs and data sources.
