@@ -1,8 +1,8 @@
-# Greenplum Final Project Overview
+# Greenplum Project Overview
 
 ## Introduction
 
-This project is an end-to-end data processing and analytics initiative utilizing Greenplum. Our focus is to manage and analyze retail data comprehensively, incorporating various data sources like stores, traffic, bills, coupons, and promotional activities. The goal is to leverage Greenplum's capabilities for efficient data warehousing and analytics, ensuring timely and accurate insights for business decisions.
+This project is an end-to-end data processing and analytics initiative utilizing Greenplum at Sapiens Solutions. Our focus is to manage and analyze retail data comprehensively, incorporating various data sources like stores, traffic, bills, coupons, and promotional activities. The goal is to leverage Greenplum's capabilities for efficient data warehousing and analytics, ensuring timely and accurate insights for business decisions.
 
 ## Data:
 
@@ -13,12 +13,6 @@ This project is an end-to-end data processing and analytics initiative utilizing
 * **Promotions (promos)**: Details of ongoing promotional activities, loaded from a file using gpfdist.
 * **Promotion Types (promo_types)**: Types of promotions available, loaded from a file using gpfdist.
 
-## Data Preparation:
-
-* **Cleaning**: Ensuring data integrity by removing discrepancies and handling missing values.
-* **Feature Engineering**: Extracting relevant features to aid in predictive modeling and analytics.
-* **Exploratory Data Analysis (EDA)**: Conducting analysis to understand patterns and distributions within the data.
-
 ## Objective
 
 * To replicate calculation processes using Greenplum.
@@ -26,7 +20,6 @@ This project is an end-to-end data processing and analytics initiative utilizing
 * To load data marts into Clickhouse for efficient query processing.
 * To create dynamic and insightful reports using Apache Superset.
 * To automate data loading and mart creation using Apache Airflow, facilitating monthly/daily report generation.
-* To ensure the report for the period 01.01.2021 - 28.02.2021 matches the given Excel example.
 
 ## Completed Work
 
@@ -43,7 +36,6 @@ This project is an end-to-end data processing and analytics initiative utilizing
 * Clickhouse for analytical processing.
 * Apache Superset for reporting.
 * Apache Airflow for workflow automation.
-* Additional libraries for data manipulation and visualization like Pandas, Numpy, Matplotlib, and Seaborn.
 
 ## Results
 
@@ -67,4 +59,4 @@ This project is an end-to-end data processing and analytics initiative utilizing
 
 ## Acknowledgments
 
-Special thanks to the Sapiens \solutions mentors and organizers for their invaluable support and guidance throughout the project. Your expertise and encouragement were critical to our success.
+Special thanks to the Sapiens Solutions mentors and organizers for their invaluable support and guidance throughout the project. Your expertise and encouragement were critical to our success.
