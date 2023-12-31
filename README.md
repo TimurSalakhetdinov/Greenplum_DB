@@ -15,9 +15,9 @@ This project is an end-to-end data processing and analytics initiative utilizing
 
 ## Data Preparation:
 
-* Cleaning: Ensuring data integrity by removing discrepancies and handling missing values.
-* Feature Engineering: Extracting relevant features to aid in predictive modeling and analytics.
-* Exploratory Data Analysis (EDA): Conducting analysis to understand patterns and distributions within the data.
+* **Cleaning**: Ensuring data integrity by removing discrepancies and handling missing values.
+* **Feature Engineering**: Extracting relevant features to aid in predictive modeling and analytics.
+* **Exploratory Data Analysis (EDA)**: Conducting analysis to understand patterns and distributions within the data.
 
 ## Objective
 
